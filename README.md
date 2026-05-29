@@ -12,6 +12,8 @@ raw -> staging -> core -> analytics -> reporting
 
 Each layer has a specific purpose. The raw layer stores the original data as it comes. The staging layer cleans and trims the data. The core layer validates the data with database constraints. The analytics layer organizes the data for analysis. The reporting layer creates views that are ready for final business summaries.
 
+<br>
+
 # Tools Used
 
 * PostgreSQL
@@ -64,6 +66,8 @@ ACID-postgreSQL-project/
     ├── 05_analytics_project.sql
     └── 06_reporting_project.sql
 ```
+
+<br>
 
 # How to Run the Project
 
